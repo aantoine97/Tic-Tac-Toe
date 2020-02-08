@@ -1,2 +1,2 @@
 # Tic-Tac-Toe
-My first Python project
+First Udemy Python project

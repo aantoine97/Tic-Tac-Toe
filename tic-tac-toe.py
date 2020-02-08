@@ -276,7 +276,7 @@ def get_next_move():
     else:
         player2_move = input("Player 2's move: ")
         while str(player2_move) not in "123456789" or len(str(player2_move)) != 1:
-            show_example_board(board)
+            show_example_board()
             player2_move = input(
                 "\nSee above for valid keys to press. Please choose another space: ")
             if str(player2_move) in "123456789" and len(str(player2_move)) == 1:
